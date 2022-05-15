@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 eCommerce application made using Next js and Redux Toolkit.
 The project was created as a training and experiment
 
-###Technologies
+### Technologies
 
 - Next.js
 - Redux
