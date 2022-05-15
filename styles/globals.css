@@ -1,16 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+/*@tailwind components;*/
+@tailwind utilities;
+
+.price-slider {
+    padding-bottom: 20px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.noUi-horizontal .noUi-handle {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -2px;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #111;
+    top: -6px !important;
+    box-shadow: none;
 }
 
-* {
-  box-sizing: border-box;
+.noUi-horizontal .noUi-handle:before, .noUi-horizontal .noUi-handle:after{
+    display: none;
+}
+
+.noUi-target {
+    height: 5px !important;
+    background-color: #eeeeee !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.noUi-connect {
+    background-color: #111 !important;
+}
+
+.search-box .search-items li {
+    display: block;
+    background: #202020;
+    border-bottom: 1px solid #ccc;
+}
+
+.search-box .search-items li:hover {
+    background: #706e6e;
+}
+
+.search-box .search-items li:before {
+    display: none;
+}
+
+.search-box .search-items li a {
+    font-size: 15px;
+    float: none;
+    text-align: left;
 }
